@@ -5,8 +5,8 @@
       "port": 3306,
       "user": "username",
       "password": "password",
-      "database": "test_cards"
-    }
+      "database": "test"
+    },
   },
   "databaseProduction": {
     "config": {
@@ -16,8 +16,8 @@
       "password": "password",
       "database": "test"
     },
-    "targetTable": "project_states",
-    "searchField": "title",
-    "showField": "id"
+    "targetTable": "departments",
+    "searchField": "id",
+    "showField": "data"
   }
 }
