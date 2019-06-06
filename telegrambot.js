@@ -101,7 +101,7 @@ bot.on('message', (msg) => {
                                 console.debug(`Неверный формат ввода. Отклонено.`);
                                 bot.sendMessage(chatId, "Вы ввели неверный формат карты ");
                             } else {
-                                addUserCardToDb(card, userId, bot, chatId);
+                                addUserCardToDb(card, userId, chatId);
                             }
                         });
                     });
