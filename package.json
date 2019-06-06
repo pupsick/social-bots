@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "https": "^1.0.0",
+    "mysql": "^2.17.1",
+    "mysqli": "^3.0.6",
+    "node-telegram-bot-api": "^0.30.0",
+    "node-vk-bot-api": "^2.4.8",
+    "viber-bot": "^1.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
